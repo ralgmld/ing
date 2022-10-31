@@ -46,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
-        login_button.setOnClickListener(new View.OnClickListener() {
+        /*login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String email = login_email.getText().toString();
@@ -85,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
                 queue.add(loginRequest);
 
             }
-        });
+        });*/
     }
 
 }

@@ -85,13 +85,13 @@ public class CallingService extends Service {
         btn_stt = (Button) rootView.findViewById(R.id.btn_stt);
         btn_close = (ImageButton) rootView.findViewById(R.id.btn_close);
 //        ButterKnife.bind(this, rootView);
-        //setDraggable();
+        setDraggable();
 
-        intent=new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        /*intent=new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE,getPackageName());
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE,"ko-KR");
 
-        /*btn_stt.setOnClickListener(v -> {
+        btn_stt.setOnClickListener(v -> {
             mRecognizer= SpeechRecognizer.createSpeechRecognizer(this);
             mRecognizer.setRecognitionListener(listener);
             mRecognizer.startListening(intent);
@@ -187,7 +187,7 @@ public class CallingService extends Service {
 
         @Override
         public void onEvent(int eventType, Bundle params) {}
-    };
+    };*/
 
 
     private void setDraggable() {
@@ -220,7 +220,7 @@ public class CallingService extends Service {
                 return false;
             }
         });
-    }*/
+    }
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         windowManager.addView(rootView, params);

@@ -6,126 +6,126 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="30"
-8-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml
+8-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="25" />
-9-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml
+9-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-11-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:8:5-75
-11-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:8:22-72
+11-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:8:5-75
+11-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:8:22-72
 12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-12-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:9:5-78
-12-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:9:22-75
+12-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:9:5-78
+12-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:9:22-75
 13    <uses-permission android:name="android.permission.READ_CALL_LOG" />
-13-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:10:5-72
-13-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:10:22-69
+13-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:10:5-72
+13-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:10:22-69
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:11:5-13:40
-14-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:12:9-65
+14-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:11:5-13:40
+14-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:12:9-65
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:14:5-80
-15-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:14:22-77
+15-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:5-80
+15-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:22-77
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:15:5-67
-16-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:15:22-64
+16-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:15:5-67
+16-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:15:22-64
 17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-17-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:16:5-71
-17-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:16:22-68
+17-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:16:5-71
+17-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:16:22-68
 18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-18-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:17:5-18:40
-18-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:17:22-79
+18-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:17:5-18:40
+18-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:17:22-79
 19    <uses-permission android:name="android.permission.ADD_VOICEMAIL" />
-19-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:19:5-71
-19-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:19:22-69
+19-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:19:5-71
+19-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:19:22-69
 20
 21    <application
-21-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:22:5-65:19
+21-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:22:5-65:19
 22        android:allowBackup="true"
-22-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:25:9-35
+22-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:25:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.8.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cd33f26b4f6a5be75c2c675ec5e179dc\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 24        android:dataExtractionRules="@xml/data_extraction_rules"
-24-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:26:9-65
+24-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:26:9-65
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:fullBackupContent="@xml/backup_rules"
-27-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:27:9-54
+27-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:27:9-54
 28        android:icon="@mipmap/ic_logo"
-28-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:28:9-39
+28-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:28:9-39
 29        android:label="@string/app_name"
-29-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:29:9-41
+29-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:29:9-41
 30        android:requestLegacyExternalStorage="true"
-30-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:24:9-52
+30-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:24:9-52
 31        android:roundIcon="@mipmap/ic_logo_round"
-31-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:30:9-50
+31-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:30:9-50
 32        android:supportsRtl="true"
-32-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:31:9-35
+32-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:31:9-35
 33        android:testOnly="true"
 34        android:theme="@style/Theme.YourVoice"
-34-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:32:9-47
+34-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:32:9-47
 35        android:usesCleartextTraffic="true" >
-35-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:23:9-44
+35-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:23:9-44
 36        <receiver
-36-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:34:9-38:40
+36-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:34:9-38:40
 37            android:name="com.example.YourVoice.IncomingCallBroadcastReceiver"
-37-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:34:19-64
+37-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:34:19-64
 38            android:exported="true" >
-38-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:35:13-36
+38-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:35:13-36
 39            <intent-filter>
-39-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:36:13-38:29
+39-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:36:13-38:29
 40                <action android:name="android.intent.action.PHONE_STATE" />
-40-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:37:17-75
-40-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:37:25-73
+40-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:37:17-75
+40-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:37:25-73
 41            </intent-filter>
 42        </receiver>
 43
 44        <service android:name="com.example.YourVoice.CallingService" />
-44-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:39:9-50
-44-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:39:18-48
+44-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:39:9-50
+44-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:39:18-48
 45
 46        <activity
-46-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:41:9-43:40
+46-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:41:9-43:40
 47            android:name="com.example.YourVoice.GoogleSTTActivity"
-47-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:42:13-46
+47-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:42:13-46
 48            android:exported="false" />
-48-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:43:13-37
+48-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:43:13-37
 49        <activity
-49-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:44:9-46:39
+49-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:44:9-46:39
 50            android:name="com.example.YourVoice.login.LoginActivity"
-50-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:45:13-48
+50-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:45:13-48
 51            android:exported="true" />
-51-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:46:13-36
+51-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:46:13-36
 52        <activity
-52-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:47:9-49:39
+52-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:47:9-49:39
 53            android:name="com.example.YourVoice.login.RegisterActivity"
-53-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:48:13-51
+53-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:48:13-51
 54            android:exported="true" />
-54-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:49:13-36
+54-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:49:13-36
 55        <activity
-55-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:50:9-59:20
+55-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:50:9-59:20
 56            android:name="com.example.YourVoice.SplashScreen"
-56-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:51:13-41
+56-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:51:13-41
 57            android:exported="true"
-57-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:52:13-36
+57-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:52:13-36
 58            android:theme="@style/SplashTheme" >
-58-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:53:13-47
+58-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:53:13-47
 59            <intent-filter>
-59-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:54:13-58:29
+59-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:54:13-58:29
 60                <action android:name="android.intent.action.MAIN" />
-60-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:55:17-69
-60-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:55:25-66
+60-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:55:17-69
+60-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:55:25-66
 61
 62                <category android:name="android.intent.category.LAUNCHER" />
-62-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:57:17-77
-62-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:57:27-74
+62-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:57:17-77
+62-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:57:27-74
 63            </intent-filter>
 64        </activity>
 65        <activity
-65-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:60:9-62:39
+65-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:60:9-62:39
 66            android:name="com.example.YourVoice.MainActivity"
-66-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:61:13-41
+66-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:61:13-41
 67            android:exported="true" />
-67-->C:\Users\dkvc4\Downloads\alswl-master\app\src\main\AndroidManifest.xml:62:13-36
+67-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:62:13-36
 68
 69        <provider
 69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

@@ -454,6 +454,25 @@
             "outputFile": "com.example.YourVoice.app-merged_res-44:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\dkvc4\\Downloads\\stting\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "816"
+                    },
+                    "to": {
+                        "startLines": "33",
+                        "startColumns": "4",
+                        "startOffsets": "3386",
+                        "endLines": "45",
+                        "endColumns": "12",
+                        "endOffsets": "3979"
+                    }
+                },
+                {
                     "source": "C:\\Users\\dkvc4\\.gradle\\caches\\transforms-3\\94723a85da34df2a1a22cc73adb8ecfe\\transformed\\material-1.7.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33",
@@ -485,25 +504,6 @@
                         "startOffsets": "100,170,254,338,434,536,638,3984",
                         "endColumns": "69,83,83,95,101,101,93,88",
                         "endOffsets": "165,249,333,429,531,633,727,4068"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dkvc4\\Downloads\\alswl-master\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "816"
-                    },
-                    "to": {
-                        "startLines": "33",
-                        "startColumns": "4",
-                        "startOffsets": "3386",
-                        "endLines": "45",
-                        "endColumns": "12",
-                        "endOffsets": "3979"
                     }
                 }
             ]
@@ -2169,6 +2169,40 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\dkvc4\\Downloads\\stting\\app\\src\\main\\res\\values\\ic_logo_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "52",
+                        "endOffsets": "103"
+                    },
+                    "to": {
+                        "startLines": "680",
+                        "startColumns": "4",
+                        "startOffsets": "35622",
+                        "endColumns": "52",
+                        "endOffsets": "35670"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dkvc4\\Downloads\\stting\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "88,146",
+                        "endColumns": "57,55",
+                        "endOffsets": "141,197"
+                    },
+                    "to": {
+                        "startLines": "946,947",
+                        "startColumns": "4,4",
+                        "startOffsets": "54237,54295",
+                        "endColumns": "57,55",
+                        "endOffsets": "54290,54346"
+                    }
+                },
+                {
                     "source": "C:\\Users\\dkvc4\\.gradle\\caches\\transforms-3\\188c6e72ed7d1267fb2a35ff96f51405\\transformed\\navigation-runtime-2.5.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,10,13",
@@ -2185,6 +2219,23 @@
                         "endLines": "1545,8502,11564,11570",
                         "endColumns": "52,24,24,24",
                         "endOffsets": "96214,568262,682563,682805"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dkvc4\\Downloads\\stting\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,7,2,3,5,4",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "16,307,65,112,202,156",
+                        "endColumns": "48,69,46,43,46,45",
+                        "endOffsets": "60,372,107,151,244,197"
+                    },
+                    "to": {
+                        "startLines": "1711,1730,1836,1837,1838,1839",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "106291,108584,123639,123686,123730,123777",
+                        "endColumns": "48,69,46,43,46,45",
+                        "endOffsets": "106335,108649,123681,123725,123772,123818"
                     }
                 },
                 {
@@ -2226,23 +2277,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dkvc4\\Downloads\\alswl-master\\app\\src\\main\\res\\values\\ic_logo_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "52",
-                        "endOffsets": "103"
-                    },
-                    "to": {
-                        "startLines": "680",
-                        "startColumns": "4",
-                        "startOffsets": "35622",
-                        "endColumns": "52",
-                        "endOffsets": "35670"
-                    }
-                },
-                {
                     "source": "C:\\Users\\dkvc4\\.gradle\\caches\\transforms-3\\0efe567aacb37b6e3052ec6fca0bebe1\\transformed\\savedstate-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -2279,23 +2313,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dkvc4\\Downloads\\alswl-master\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "88,146",
-                        "endColumns": "57,55",
-                        "endOffsets": "141,197"
-                    },
-                    "to": {
-                        "startLines": "946,947",
-                        "startColumns": "4,4",
-                        "startOffsets": "54237,54295",
-                        "endColumns": "57,55",
-                        "endOffsets": "54290,54346"
-                    }
-                },
-                {
                     "source": "C:\\Users\\dkvc4\\.gradle\\caches\\transforms-3\\4a304de5f8c3556808c256dfcb946220\\transformed\\lifecycle-viewmodel-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -2310,23 +2327,6 @@
                         "startOffsets": "99053",
                         "endColumns": "49",
                         "endOffsets": "99098"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dkvc4\\Downloads\\alswl-master\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,12,10,11,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "286,469,371,418,55,102,149,196,241,328",
-                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
-                        "endOffsets": "323,510,413,464,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "619,632,633,634,847,848,849,860,861,864",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "31442,32374,32420,32467,47697,47744,47791,48535,48580,48746",
-                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
-                        "endOffsets": "31479,32415,32462,32513,47739,47786,47833,48575,48620,48783"
                     }
                 },
                 {
@@ -2346,25 +2346,6 @@
                         "endLines": "503,504,505,506,1528,8495,8506,12028,12040,12048",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "25308,25368,25420,25465,95370,567958,568393,697915,698355,698664"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\dkvc4\\Downloads\\alswl-master\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "24,38,32,40,42,45,15,2",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "1022,1541,1389,1633,1715,1797,831,100",
-                        "endLines": "30,38,35,40,42,50,18,14",
-                        "endColumns": "12,90,12,80,79,12,12,12",
-                        "endOffsets": "1383,1627,1534,1709,1790,2141,1012,826"
-                    },
-                    "to": {
-                        "startLines": "1853,1860,1861,1865,1866,5153,5504,6035",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "124827,125158,125248,125398,125478,351096,373813,411417",
-                        "endLines": "1859,1860,1864,1865,1866,5158,5507,6047",
-                        "endColumns": "12,89,12,79,78,12,12,12",
-                        "endOffsets": "125153,125243,125393,125473,125552,351440,373994,412020"
                     }
                 },
                 {
@@ -2423,23 +2404,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\dkvc4\\Downloads\\alswl-master\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,7,2,3,5,4",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "16,307,65,112,202,156",
-                        "endColumns": "48,69,46,43,46,45",
-                        "endOffsets": "60,372,107,151,244,197"
-                    },
-                    "to": {
-                        "startLines": "1711,1730,1836,1837,1838,1839",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "106291,108584,123639,123686,123730,123777",
-                        "endColumns": "48,69,46,43,46,45",
-                        "endOffsets": "106335,108649,123681,123725,123772,123818"
-                    }
-                },
-                {
                     "source": "C:\\Users\\dkvc4\\.gradle\\caches\\transforms-3\\597b8c92de7c120ad233134bdce2ed0a\\transformed\\fragment-1.5.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -2492,6 +2456,42 @@
                         "endLines": "1478,1546,1560,1561,10423,10591,11567",
                         "endColumns": "62,56,58,48,24,24,24",
                         "endOffsets": "92252,96271,97046,97095,639994,645777,682690"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dkvc4\\Downloads\\stting\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,12,10,11,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "286,469,371,418,55,102,149,196,241,328",
+                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
+                        "endOffsets": "323,510,413,464,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "619,632,633,634,847,848,849,860,861,864",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "31442,32374,32420,32467,47697,47744,47791,48535,48580,48746",
+                        "endColumns": "41,45,46,50,46,46,46,44,44,41",
+                        "endOffsets": "31479,32415,32462,32513,47739,47786,47833,48575,48620,48783"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\dkvc4\\Downloads\\stting\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "24,38,32,40,42,45,15,2",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "1022,1541,1389,1633,1715,1797,831,100",
+                        "endLines": "30,38,35,40,42,50,18,14",
+                        "endColumns": "12,90,12,80,79,12,12,12",
+                        "endOffsets": "1383,1627,1534,1709,1790,2141,1012,826"
+                    },
+                    "to": {
+                        "startLines": "1853,1860,1861,1865,1866,5153,5504,6035",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "124827,125158,125248,125398,125478,351096,373813,411417",
+                        "endLines": "1859,1860,1864,1865,1866,5158,5507,6047",
+                        "endColumns": "12,89,12,79,78,12,12,12",
+                        "endOffsets": "125153,125243,125393,125473,125552,351440,373994,412020"
                     }
                 },
                 {
