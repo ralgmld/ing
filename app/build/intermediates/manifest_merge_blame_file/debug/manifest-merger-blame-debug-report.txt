@@ -5,7 +5,7 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="30"
+8        android:minSdkVersion="21"
 8-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="25" />
 9-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
@@ -22,15 +22,15 @@
 14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 14-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:11:5-13:40
 14-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:12:9-65
-15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:5-80
-15-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:22-77
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:5-70
+15-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:22-68
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:15:5-67
+16-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:15:5-66
 16-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:15:22-64
-17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-17-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:16:5-71
-17-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:16:22-68
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:16:5-80
+17-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:16:22-77
 18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 18-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:17:5-18:40
 18-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:17:22-79
@@ -39,7 +39,7 @@
 19-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:19:22-69
 20
 21    <application
-21-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:22:5-65:19
+21-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:22:5-64:19
 22        android:allowBackup="true"
 22-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:25:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -47,120 +47,122 @@
 24        android:dataExtractionRules="@xml/data_extraction_rules"
 24-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:26:9-65
 25        android:debuggable="true"
-26        android:extractNativeLibs="false"
-27        android:fullBackupContent="@xml/backup_rules"
-27-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:27:9-54
-28        android:icon="@mipmap/ic_logo"
-28-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:28:9-39
-29        android:label="@string/app_name"
-29-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:29:9-41
-30        android:requestLegacyExternalStorage="true"
-30-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:24:9-52
-31        android:roundIcon="@mipmap/ic_logo_round"
-31-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:30:9-50
-32        android:supportsRtl="true"
-32-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:31:9-35
-33        android:testOnly="true"
-34        android:theme="@style/Theme.YourVoice"
-34-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:32:9-47
-35        android:usesCleartextTraffic="true" >
-35-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:23:9-44
-36        <receiver
-36-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:34:9-38:40
-37            android:name="com.example.YourVoice.IncomingCallBroadcastReceiver"
-37-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:34:19-64
-38            android:exported="true" >
-38-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:35:13-36
-39            <intent-filter>
-39-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:36:13-38:29
-40                <action android:name="android.intent.action.PHONE_STATE" />
-40-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:37:17-75
-40-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:37:25-73
-41            </intent-filter>
-42        </receiver>
-43
-44        <service android:name="com.example.YourVoice.CallingService" />
-44-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:39:9-50
-44-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:39:18-48
-45
-46        <activity
-46-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:41:9-43:40
-47            android:name="com.example.YourVoice.GoogleSTTActivity"
-47-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:42:13-46
-48            android:exported="false" />
-48-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:43:13-37
-49        <activity
-49-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:44:9-46:39
-50            android:name="com.example.YourVoice.login.LoginActivity"
-50-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:45:13-48
-51            android:exported="true" />
-51-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:46:13-36
-52        <activity
-52-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:47:9-49:39
-53            android:name="com.example.YourVoice.login.RegisterActivity"
-53-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:48:13-51
-54            android:exported="true" />
-54-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:49:13-36
-55        <activity
-55-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:50:9-59:20
-56            android:name="com.example.YourVoice.SplashScreen"
-56-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:51:13-41
-57            android:exported="true"
-57-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:52:13-36
-58            android:theme="@style/SplashTheme" >
-58-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:53:13-47
-59            <intent-filter>
-59-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:54:13-58:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:55:17-69
-60-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:55:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:57:17-77
-62-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:57:27-74
-63            </intent-filter>
-64        </activity>
-65        <activity
-65-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:60:9-62:39
-66            android:name="com.example.YourVoice.MainActivity"
-66-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:61:13-41
-67            android:exported="true" />
-67-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:62:13-36
-68
-69        <provider
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-70            android:name="androidx.startup.InitializationProvider"
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-71            android:authorities="com.example.YourVoice.androidx-startup"
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-72            android:exported="false" >
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-73            <meta-data
-73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-75                android:value="androidx.startup" />
-75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-76            <meta-data
-76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dkvc4\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dkvc4\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-78                android:value="androidx.startup" />
-78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dkvc4\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-79        </provider>
-80
-81        <uses-library
-81-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-82            android:name="androidx.window.extensions"
-82-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-83            android:required="false" />
-83-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-84        <uses-library
-84-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-85            android:name="androidx.window.sidecar"
-85-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-86            android:required="false" />
-86-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-87    </application>
-88
-89</manifest>
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:27:9-54
+27        android:icon="@mipmap/ic_logo"
+27-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:28:9-39
+28        android:label="@string/app_name"
+28-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:29:9-41
+29        android:requestLegacyExternalStorage="true"
+29-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:24:9-52
+30        android:roundIcon="@mipmap/ic_logo_round"
+30-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:30:9-50
+31        android:supportsRtl="true"
+31-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:31:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.YourVoice"
+33-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:32:9-47
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:23:9-44
+35        <receiver
+35-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:34:9-38:40
+36            android:name="com.example.YourVoice.IncomingCallBroadcastReceiver"
+36-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:34:19-64
+37            android:exported="true" >
+37-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:35:13-36
+38            <intent-filter>
+38-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:36:13-38:29
+39                <action android:name="android.intent.action.PHONE_STATE" />
+39-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:37:17-75
+39-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:37:25-73
+40            </intent-filter>
+41        </receiver>
+42
+43        <service android:name="com.example.YourVoice.CallingService" />
+43-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:39:9-50
+43-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:39:18-48
+44
+45        <activity
+45-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:40:9-44:20
+46            android:name="com.example.YourVoice.GoogleSTTActivity"
+46-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:41:13-46
+47            android:exported="true"
+47-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:42:13-36
+48            android:permission="android.permission.RECORD_AUDIO" >
+48-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:43:13-67
+49        </activity>
+50        <activity
+50-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:45:9-47:39
+51            android:name="com.example.YourVoice.login.LoginActivity"
+51-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:46:13-48
+52            android:exported="true" />
+52-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:47:13-36
+53        <activity
+53-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:48:9-50:39
+54            android:name="com.example.YourVoice.login.RegisterActivity"
+54-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:49:13-51
+55            android:exported="true" />
+55-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:50:13-36
+56        <activity
+56-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:51:9-60:20
+57            android:name="com.example.YourVoice.SplashScreen"
+57-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:52:13-41
+58            android:exported="true"
+58-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:53:13-36
+59            android:theme="@style/SplashTheme" >
+59-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:54:13-47
+60            <intent-filter>
+60-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:55:13-59:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:56:17-69
+61-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:56:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:58:17-77
+63-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:58:27-74
+64            </intent-filter>
+65        </activity>
+66        <activity
+66-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:61:9-63:39
+67            android:name="com.example.YourVoice.MainActivity"
+67-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:62:13-41
+68            android:exported="true" />
+68-->C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:63:13-36
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+72            android:authorities="com.example.YourVoice.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dkvc4\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dkvc4\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dkvc4\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+80        </provider>
+81
+82        <uses-library
+82-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+83            android:name="androidx.window.extensions"
+83-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+85        <uses-library
+85-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+86            android:name="androidx.window.sidecar"
+86-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+88    </application>
+89
+90</manifest>

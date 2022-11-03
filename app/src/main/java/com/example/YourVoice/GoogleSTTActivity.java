@@ -37,13 +37,14 @@ public class GoogleSTTActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_record);
 
+        // 퍼미션 체크
         if ( Build.VERSION.SDK_INT >= 23 ){
             // 퍼미션 체크
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.INTERNET,
                     Manifest.permission.RECORD_AUDIO},PERMISSION);
         }
 
-        textView = (TextView)findViewById(R.id.sttResult);
+        textView = (TextView)findViewById(R.id.sttResult); //xml 연결
         sttBtn = (Button) findViewById(R.id.sttStart);
 
         intent=new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
@@ -124,15 +125,16 @@ public class GoogleSTTActivity extends AppCompatActivity {
 
             for(int i = 0; i < matches.size() ; i++){
                 textView.setText(matches.get(i));
-                try {
+                /*try {
                     writeDataToCsv("/Alarms/test.csv", matches);
                 } catch (IOException e) {
                     e.printStackTrace();
-                }
+                }*/
+                textView.setText(matches.get(i));
             }
         }
 
-        public void writeDataToCsv(String filePath, ArrayList<String> text) throws IOException {
+        /*public void writeDataToCsv(String filePath, ArrayList<String> text) throws IOException {
             CSVWriter writer = new CSVWriter(new FileWriter(filePath));
 
             for(int i = 0; i < text.size() ; i++){
@@ -148,7 +150,7 @@ public class GoogleSTTActivity extends AppCompatActivity {
 
 
             writer.close();
-        }
+        }*/
 
 
 

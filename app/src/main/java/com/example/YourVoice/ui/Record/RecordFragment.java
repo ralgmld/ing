@@ -1,15 +1,20 @@
 package com.example.YourVoice.ui.Record;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.speech.SpeechRecognizer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.YourVoice.CallingService;
+import com.example.YourVoice.GoogleSTTActivity;
 import com.example.YourVoice.MainActivity;
 import com.example.YourVoice.R;
 import com.example.YourVoice.databinding.FragmentCalllogBinding;
@@ -21,6 +26,7 @@ public class RecordFragment extends Fragment {
     private TextView callText; //레이아웃에 있는 번호적는 Text를 받기위한 변수 선언.
     MainActivity mainActivity;
     private FragmentCalllogBinding binding;
+    Button btn_stt;
 
     /*public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -43,7 +49,6 @@ public class RecordFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_record,null); //view를 불러온다.
         //SetLayout(view);
-
         return view;
     }
 
@@ -52,4 +57,4 @@ public class RecordFragment extends Fragment {
         super.onDestroyView();
         binding = null;
     }
-}
+    }

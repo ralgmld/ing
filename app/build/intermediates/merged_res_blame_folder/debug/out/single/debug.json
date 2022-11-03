@@ -44,10 +44,6 @@
         "source": "com.example.YourVoice.app-main-46:/drawable-v24/seven.png"
     },
     {
-        "merged": "com.example.YourVoice.app-merged_res-44:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.YourVoice.app-main-46:/drawable-v24/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "com.example.YourVoice.app-merged_res-44:/drawable_ic_home_black_24dp.xml.flat",
         "source": "com.example.YourVoice.app-main-46:/drawable/ic_home_black_24dp.xml"
     },
@@ -222,6 +218,10 @@
     {
         "merged": "com.example.YourVoice.app-merged_res-44:/drawable_ic_dashboard_black_24dp.xml.flat",
         "source": "com.example.YourVoice.app-main-46:/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.YourVoice.app-merged_res-44:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.YourVoice.app-pngs-39:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
         "merged": "com.example.YourVoice.app-merged_res-44:/drawable-v24_ic_baseline_clear_24.xml.flat",

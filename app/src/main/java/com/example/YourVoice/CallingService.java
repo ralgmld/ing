@@ -46,7 +46,6 @@ public class CallingService extends Service {
     TextView stt_result;
     final int PERMISSION = 1;
 
-
     @BindView(R.id.tv_call_number)
     TextView tv_call_number;
     String call_number;
@@ -253,10 +252,6 @@ public class CallingService extends Service {
         if (rootView != null || windowManager != null) windowManager.removeView(rootView);
 
     }
-
-
-
-
 
 
 }

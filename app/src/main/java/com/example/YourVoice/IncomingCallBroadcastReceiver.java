@@ -26,8 +26,10 @@ public class IncomingCallBroadcastReceiver extends BroadcastReceiver {
             String incomingNumber = intent.getStringExtra(TelephonyManager.EXTRA_INCOMING_NUMBER);
             //final String phone_number = PhoneNumberUtils.formatNumber(incomingNumber);
             Intent serviceIntent = new Intent(context, CallingService.class);
+            Intent serviceintent = new Intent(context.getApplicationContext(), GoogleSTTActivity.class); // add
             //serviceIntent.putExtra(CallingService.EXTRA_CALL_NUMBER, phone_number);
             context.startService(serviceIntent);
+            context.startService(serviceintent); //add
         }
     }
 }
