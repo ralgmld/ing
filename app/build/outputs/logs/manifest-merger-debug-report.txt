@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [androidx.databinding:viewbinding:7.2.1] C:\Users\dkvc4\.gradle\caches\transforms-3\6509385ff8ec8e676099ca8dd74d3249\transformed\viewbinding-7.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\0acd5d68b25d2a0178777eb88d84f1a7\transformed\circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.jakewharton:butterknife:10.2.3] C:\Users\dkvc4\.gradle\caches\transforms-3\ce6853637c95289664e58bced9cb3205\transformed\butterknife-10.2.3\AndroidManifest.xml:2:1-7:12
@@ -20,6 +20,9 @@ MERGED from [androidx.navigation:navigation-runtime:2.5.2] C:\Users\dkvc4\.gradl
 MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\2a7f4749ced1877258217ab8cd3162a9\transformed\activity-ktx-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.5.2] C:\Users\dkvc4\.gradle\caches\transforms-3\434a7957b1bbad26fdb789f83c442a59\transformed\navigation-common-2.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\ee9299e0dd80c919bea3d22d68c3c13d\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:2:1-19:12
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\558a376c9715ce970c82065b28321b39\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\dkvc4\.gradle\caches\transforms-3\597b8c92de7c120ad233134bdce2ed0a\transformed\fragment-1.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\852142c55912a7c2ba8a08c355278db0\transformed\activity-1.5.1\AndroidManifest.xml:17:1-24:12
@@ -62,27 +65,30 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dkvc4\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\daafd13ed6472e5d90ee94a442cae491\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2af33ecfc53e92df0b334d3008fd6eb8\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
-INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:2:1-12:12
+INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:4:5-36
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-67:12
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_PHONE_STATE
 ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:8:5-75
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:17:5-75
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:17:5-75
 	android:name
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:8:22-72
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -95,16 +101,26 @@ ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:10:5
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:10:22-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:11:5-13:40
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:16:5-81
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:16:5-81
 	tools:ignore
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:13:9-37
 	android:name
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:12:9-65
 uses-permission#android.permission.RECORD_AUDIO
 ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:5-70
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:12:5-71
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:12:5-71
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:11:5-71
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:11:5-71
 	android:name
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:14:22-68
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:15:5-66
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:11:5-67
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:11:5-67
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:12:5-67
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -122,13 +138,15 @@ ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:19:5
 	android:name
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:19:22-69
 application
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:22:5-65:19
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:22:5-62:19
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\0acd5d68b25d2a0178777eb88d84f1a7\transformed\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\0acd5d68b25d2a0178777eb88d84f1a7\transformed\circleimageview-3.0.0\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\dkvc4\.gradle\caches\transforms-3\94723a85da34df2a1a22cc73adb8ecfe\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\dkvc4\.gradle\caches\transforms-3\94723a85da34df2a1a22cc73adb8ecfe\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dkvc4\.gradle\caches\transforms-3\8ad4b0562467dfb6f3cd10869bd03e3f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dkvc4\.gradle\caches\transforms-3\8ad4b0562467dfb6f3cd10869bd03e3f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
@@ -141,6 +159,8 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dkvc4\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dkvc4\.gradle\caches\transforms-3\1cae1fa052e05fd8a9b9ef41ba1cda8b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dkvc4\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dkvc4\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:10:5-20
 	android:requestLegacyExternalStorage
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:24:9-52
 	android:appComponentFactory
@@ -184,49 +204,45 @@ ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:40:9
 	android:name
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:40:18-48
 activity#com.example.YourVoice.GoogleSTTActivity
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:41:9-45:20
-	android:exported
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:43:13-36
-	android:permission
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:44:13-67
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:41:9-42:48
 	android:name
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:42:13-46
 activity#com.example.YourVoice.login.LoginActivity
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:43:9-45:39
+	android:exported
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:44:13-48
+activity#com.example.YourVoice.login.RegisterActivity
 ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:46:9-48:39
 	android:exported
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:48:13-36
 	android:name
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:47:13-48
-activity#com.example.YourVoice.login.RegisterActivity
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:49:9-51:39
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:47:13-51
+activity#com.example.YourVoice.SplashScreen
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:49:9-58:20
 	android:exported
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:51:13-36
-	android:name
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:50:13-51
-activity#com.example.YourVoice.SplashScreen
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:52:9-61:20
-	android:exported
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:54:13-36
 	android:theme
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:55:13-47
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:52:13-47
 	android:name
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:53:13-41
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:50:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:56:13-60:29
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:53:13-57:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:57:17-69
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:54:17-69
 	android:name
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:57:25-66
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:54:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:59:17-77
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:56:17-77
 	android:name
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:59:27-74
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:56:27-74
 activity#com.example.YourVoice.MainActivity
-ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:62:9-64:39
+ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:59:9-61:39
 	android:exported
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:64:13-36
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:61:13-36
 	android:name
-		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:63:13-41
+		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:60:13-41
 uses-sdk
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
@@ -263,6 +279,12 @@ MERGED from [androidx.navigation:navigation-common:2.5.2] C:\Users\dkvc4\.gradle
 MERGED from [androidx.navigation:navigation-common:2.5.2] C:\Users\dkvc4\.gradle\caches\transforms-3\434a7957b1bbad26fdb789f83c442a59\transformed\navigation-common-2.5.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\ee9299e0dd80c919bea3d22d68c3c13d\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\ee9299e0dd80c919bea3d22d68c3c13d\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\558a376c9715ce970c82065b28321b39\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\558a376c9715ce970c82065b28321b39\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.2] C:\Users\dkvc4\.gradle\caches\transforms-3\597b8c92de7c120ad233134bdce2ed0a\transformed\fragment-1.5.2\AndroidManifest.xml:20:5-22:41
@@ -347,6 +369,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\dkvc4\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2af33ecfc53e92df0b334d3008fd6eb8\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2af33ecfc53e92df0b334d3008fd6eb8\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:7:5-8:41
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -356,7 +380,21 @@ INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
+		MERGED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:13:22-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:15:22-76
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dkvc4\.gradle\caches\transforms-3\7cfe2704946b18bb678666b3953b74c4\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20

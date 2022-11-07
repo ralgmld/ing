@@ -21,7 +21,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\dkvc4\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\dkvc4\.android\avd\Pixel_2_API_30_1.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -30,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="layoutResourceFile" />
         <option value="resourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GoogleSTT-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ScamCatch-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -72,16 +72,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dkvc4\Downloads\stting\app" />
+      <recent name="C:\Users\dkvc4\Downloads\stting" />
       <recent name="C:\Users\alswl\AndroidStudioProjects\alswl_alswl\app\src\main\res\drawable" />
       <recent name="C:\Users\alswl\AndroidStudioProjects\alswl_alswl\app\src\main\res\font" />
       <recent name="C:\Users\alswl\AndroidStudioProjects\alswl_alswl\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\alswl\AndroidStudioProjects\Koren\YourVoice\app\src\main\res\drawable" />
     </key>
     <key name="android.template.-280770196">
       <recent name="com.example.YourVoice" />
     </key>
     <key name="android.template.1475634200">
       <recent name="com.example.YourVoice.login" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dkvc4\Downloads\stting\app" />
     </key>
     <key name="android.template.-1024079195">
       <recent name="com.example.YourVoice" />

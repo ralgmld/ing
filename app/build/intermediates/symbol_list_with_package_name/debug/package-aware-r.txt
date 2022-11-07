@@ -3172,7 +3172,6 @@ id staticPostLayout
 id stop
 id stretch
 id sttResult
-id sttStart
 id submenuarrow
 id submit_area
 id supportScrollUp

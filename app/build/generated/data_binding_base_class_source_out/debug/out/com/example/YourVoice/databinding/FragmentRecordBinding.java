@@ -21,16 +21,16 @@ public final class FragmentRecordBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView sttResult;
+  public final Button btnStt;
 
   @NonNull
-  public final Button sttStart;
+  public final TextView sttResult;
 
-  private FragmentRecordBinding(@NonNull ConstraintLayout rootView, @NonNull TextView sttResult,
-      @NonNull Button sttStart) {
+  private FragmentRecordBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnStt,
+      @NonNull TextView sttResult) {
     this.rootView = rootView;
+    this.btnStt = btnStt;
     this.sttResult = sttResult;
-    this.sttStart = sttStart;
   }
 
   @Override
@@ -60,19 +60,19 @@ public final class FragmentRecordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_stt;
+      Button btnStt = ViewBindings.findChildViewById(rootView, id);
+      if (btnStt == null) {
+        break missingId;
+      }
+
       id = R.id.sttResult;
       TextView sttResult = ViewBindings.findChildViewById(rootView, id);
       if (sttResult == null) {
         break missingId;
       }
 
-      id = R.id.sttStart;
-      Button sttStart = ViewBindings.findChildViewById(rootView, id);
-      if (sttStart == null) {
-        break missingId;
-      }
-
-      return new FragmentRecordBinding((ConstraintLayout) rootView, sttResult, sttStart);
+      return new FragmentRecordBinding((ConstraintLayout) rootView, btnStt, sttResult);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,5 +1,6 @@
 package com.example.YourVoice;
 
+import android.annotation.SuppressLint;
 import android.app.Service;
 import android.content.Intent;
 import android.graphics.PixelFormat;
@@ -33,17 +34,20 @@ import java.util.ArrayList;
 import butterknife.ButterKnife;
 import butterknife.BindView;
 import butterknife.OnClick;
+import android.view.LayoutInflater;
+
+import org.w3c.dom.Text;
 
 public class CallingService extends Service {
     public static final String EXTRA_CALL_NUMBER = "call_number";
     protected View rootView;
+    protected View tetextView;
     Button btn_stt;
     ImageButton btn_close;
-
     Intent intent;
     SpeechRecognizer mRecognizer;
     TextView textView;
-    TextView stt_result;
+
     final int PERMISSION = 1;
 
     @BindView(R.id.tv_call_number)
@@ -59,6 +63,7 @@ public class CallingService extends Service {
         return null;
     }
 
+    @SuppressLint("ResourceType")
     @Override
     public void onCreate() {
         super.onCreate();
@@ -79,14 +84,17 @@ public class CallingService extends Service {
 
         LayoutInflater layoutInflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
 
-
         rootView = layoutInflater.inflate(R.layout.call, null);
         btn_stt = (Button) rootView.findViewById(R.id.btn_stt);
-        btn_close = (ImageButton) rootView.findViewById(R.id.btn_close);
+        //textView = (TextView) layoutInflater.inflate(R.layout.fragment_record,null); //record에 있는 sttResult에 결과 출력
+        //tetextView = (TextView) layoutInflater.inflate(R.layout.fragment_record,null);
+        //textView = (TextView) tetextView.findViewById(R.id.sttResult);
+        textView = (TextView) rootView.findViewById(R.id.sttResult); //xml 연결
+        btn_close = rootView.findViewById(R.id.btn_close);
 //        ButterKnife.bind(this, rootView);
         setDraggable();
 
-        /*intent=new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent=new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE,getPackageName());
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE,"ko-KR");
 
@@ -94,21 +102,21 @@ public class CallingService extends Service {
             mRecognizer= SpeechRecognizer.createSpeechRecognizer(this);
             mRecognizer.setRecognitionListener(listener);
             mRecognizer.startListening(intent);
-        });*/
+        });
 
         btn_close.setOnClickListener(v -> {
             stopService(intent);
             startService(intent);
         });
 
-        btn_stt.setOnClickListener(view -> {
+        /*btn_stt.setOnClickListener(view -> {
             Intent intent = new Intent(getApplicationContext(), GoogleSTTActivity.class);
             startActivity(intent);
-        });
+        });*/
     }
 
 
-    /*private RecognitionListener listener = new RecognitionListener() {
+    private RecognitionListener listener = new RecognitionListener() {
         @Override
         public void onReadyForSpeech(Bundle params) {
             Toast.makeText(getApplicationContext(),"음성인식을 시작합니다.",Toast.LENGTH_SHORT).show();
@@ -186,7 +194,7 @@ public class CallingService extends Service {
 
         @Override
         public void onEvent(int eventType, Bundle params) {}
-    };*/
+    };
 
 
     private void setDraggable() {

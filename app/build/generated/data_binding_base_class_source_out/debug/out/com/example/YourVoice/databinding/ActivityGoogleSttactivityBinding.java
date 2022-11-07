@@ -21,16 +21,16 @@ public final class ActivityGoogleSttactivityBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView sttResult;
+  public final Button btnStt;
 
   @NonNull
-  public final Button sttStart;
+  public final TextView sttResult;
 
-  private ActivityGoogleSttactivityBinding(@NonNull LinearLayout rootView,
-      @NonNull TextView sttResult, @NonNull Button sttStart) {
+  private ActivityGoogleSttactivityBinding(@NonNull LinearLayout rootView, @NonNull Button btnStt,
+      @NonNull TextView sttResult) {
     this.rootView = rootView;
+    this.btnStt = btnStt;
     this.sttResult = sttResult;
-    this.sttStart = sttStart;
   }
 
   @Override
@@ -60,19 +60,19 @@ public final class ActivityGoogleSttactivityBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_stt;
+      Button btnStt = ViewBindings.findChildViewById(rootView, id);
+      if (btnStt == null) {
+        break missingId;
+      }
+
       id = R.id.sttResult;
       TextView sttResult = ViewBindings.findChildViewById(rootView, id);
       if (sttResult == null) {
         break missingId;
       }
 
-      id = R.id.sttStart;
-      Button sttStart = ViewBindings.findChildViewById(rootView, id);
-      if (sttStart == null) {
-        break missingId;
-      }
-
-      return new ActivityGoogleSttactivityBinding((LinearLayout) rootView, sttResult, sttStart);
+      return new ActivityGoogleSttactivityBinding((LinearLayout) rootView, btnStt, sttResult);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

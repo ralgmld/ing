@@ -81,7 +81,6 @@ id relativeLayout
 id sevenbtn
 id sixbtn
 id sttResult
-id sttStart
 id textView_main_result
 id text_list
 id text_myPage

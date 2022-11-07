@@ -45,7 +45,7 @@ public class GoogleSTTActivity extends AppCompatActivity {
         }
 
         textView = (TextView)findViewById(R.id.sttResult); //xml 연결
-        sttBtn = (Button) findViewById(R.id.sttStart);
+        sttBtn = (Button) findViewById(R.id.btn_stt);
 
         intent=new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
         intent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE,getPackageName());
@@ -89,13 +89,13 @@ public class GoogleSTTActivity extends AppCompatActivity {
                     message = "클라이언트 에러";
                     break;
                 case SpeechRecognizer.ERROR_INSUFFICIENT_PERMISSIONS:
-                    message = "권한 부족";
+                    message = "퍼미션 없음";
                     break;
                 case SpeechRecognizer.ERROR_NETWORK:
                     message = "네트워크 에러";
                     break;
                 case SpeechRecognizer.ERROR_NETWORK_TIMEOUT:
-                    message = "네트워크 타임아웃";
+                    message = "네트웍 타임아웃";
                     break;
                 case SpeechRecognizer.ERROR_NO_MATCH:
                     message = "찾을 수 없음";
@@ -117,6 +117,8 @@ public class GoogleSTTActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "에러가 발생하였습니다. : " + message,Toast.LENGTH_SHORT).show();
         }
 
+
+
         @Override
         public void onResults(Bundle results) {
             // 말을 하면 ArrayList에 단어를 넣고 textView에 단어를 이어줍니다.
@@ -125,33 +127,9 @@ public class GoogleSTTActivity extends AppCompatActivity {
 
             for(int i = 0; i < matches.size() ; i++){
                 textView.setText(matches.get(i));
-                /*try {
-                    writeDataToCsv("/Alarms/test.csv", matches);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }*/
-                textView.setText(matches.get(i));
+
             }
         }
-
-        /*public void writeDataToCsv(String filePath, ArrayList<String> text) throws IOException {
-            CSVWriter writer = new CSVWriter(new FileWriter(filePath));
-
-            for(int i = 0; i < text.size() ; i++){
-                textView.setText(text.get(i));
-                try {
-                    writeDataToCsv("/Alarms/test.csv", text);
-                    String[] entries = text.toArray(new String[0]);  // 1
-                    writer.writeNext(entries);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-
-
-            writer.close();
-        }*/
-
 
 
         @Override
@@ -160,7 +138,6 @@ public class GoogleSTTActivity extends AppCompatActivity {
         @Override
         public void onEvent(int eventType, Bundle params) {}
     };
-
 
 
 }
