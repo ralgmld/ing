@@ -2906,6 +2906,7 @@ int id eightbtn 0x7f0900b1
 int id elastic 0x7f0900b2
 int id embed 0x7f0900b3
 int id end 0x7f0900b4
+int id endCallBtn 0x7f09020e
 int id endToStart 0x7f0900b5
 int id enterAlways 0x7f0900b6
 int id enterAlwaysCollapsed 0x7f0900b7
@@ -3152,6 +3153,7 @@ int id snapMargins 0x7f0901a7
 int id south 0x7f0901a8
 int id spacer 0x7f0901a9
 int id special_effects_controller_view_tag 0x7f0901aa
+int id speechToText 0x7f09020f
 int id spline 0x7f0901ab
 int id split_action_bar 0x7f0901ac
 int id spread 0x7f0901ad
@@ -3209,6 +3211,7 @@ int id textinput_prefix_text 0x7f0901e0
 int id textinput_suffix_text 0x7f0901e1
 int id thirdbtn 0x7f0901e2
 int id time 0x7f0901e3
+int id timer 0x7f090210
 int id title 0x7f0901e4
 int id titleDividerNoCustom 0x7f0901e5
 int id title_template 0x7f0901e6

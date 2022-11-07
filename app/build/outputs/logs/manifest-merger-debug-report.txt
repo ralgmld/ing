@@ -20,7 +20,6 @@ MERGED from [androidx.navigation:navigation-runtime:2.5.2] C:\Users\dkvc4\.gradl
 MERGED from [androidx.activity:activity-ktx:1.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\2a7f4749ced1877258217ab8cd3162a9\transformed\activity-ktx-1.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.5.2] C:\Users\dkvc4\.gradle\caches\transforms-3\434a7957b1bbad26fdb789f83c442a59\transformed\navigation-common-2.5.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\ee9299e0dd80c919bea3d22d68c3c13d\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:17:1-24:12
-MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:2:1-19:12
 MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\558a376c9715ce970c82065b28321b39\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -65,7 +64,6 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\dkvc4\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\daafd13ed6472e5d90ee94a442cae491\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2af33ecfc53e92df0b334d3008fd6eb8\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:2:1-12:12
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:2:1-64:12
@@ -145,8 +143,6 @@ MERGED from [com.google.android.material:material:1.7.0] C:\Users\dkvc4\.gradle\
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\dkvc4\.gradle\caches\transforms-3\94723a85da34df2a1a22cc73adb8ecfe\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dkvc4\.gradle\caches\transforms-3\8ad4b0562467dfb6f3cd10869bd03e3f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\dkvc4\.gradle\caches\transforms-3\8ad4b0562467dfb6f3cd10869bd03e3f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\dkvc4\.gradle\caches\transforms-3\112a099502228b2b317b1c79d5f085b0\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\e76a7549cd3482ebe8c44ae2df2a404e\transformed\window-1.0.0\AndroidManifest.xml:24:5-31:19
@@ -159,8 +155,6 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dkvc4\.gradle\cach
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\dkvc4\.gradle\caches\transforms-3\1cae1fa052e05fd8a9b9ef41ba1cda8b\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dkvc4\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\dkvc4\.gradle\caches\transforms-3\a32d82e6af18449b0f4026f574aea670\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:10:5-20
-MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:10:5-20
 	android:requestLegacyExternalStorage
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml:24:9-52
 	android:appComponentFactory
@@ -279,8 +273,6 @@ MERGED from [androidx.navigation:navigation-common:2.5.2] C:\Users\dkvc4\.gradle
 MERGED from [androidx.navigation:navigation-common:2.5.2] C:\Users\dkvc4\.gradle\caches\transforms-3\434a7957b1bbad26fdb789f83c442a59\transformed\navigation-common-2.5.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\ee9299e0dd80c919bea3d22d68c3c13d\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] C:\Users\dkvc4\.gradle\caches\transforms-3\ee9299e0dd80c919bea3d22d68c3c13d\transformed\lifecycle-viewmodel-ktx-2.5.1\AndroidManifest.xml:20:5-22:41
-MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\6ed85cbe9020372c5ac951ddc2272e06\transformed\tensorflow-lite-2.10.0\AndroidManifest.xml:7:5-8:41
 MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.microsoft.cognitiveservices.speech:client-sdk:1.23.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2eff26ed7b6af7b102dd651221d1f00c\transformed\client-sdk-1.23.0\AndroidManifest.xml:7:5-9:41
@@ -369,8 +361,6 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\dkvc4\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\dkvc4\.gradle\caches\transforms-3\bd2b858bc6569916fd0b165974e7ef03\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2af33ecfc53e92df0b334d3008fd6eb8\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\dkvc4\.gradle\caches\transforms-3\2af33ecfc53e92df0b334d3008fd6eb8\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:7:5-8:41
-MERGED from [org.tensorflow:tensorflow-lite-api:2.10.0] C:\Users\dkvc4\.gradle\caches\transforms-3\cf66554a93d22f8a95885a19563b29b2\transformed\tensorflow-lite-api-2.10.0\AndroidManifest.xml:7:5-8:41
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -380,8 +370,6 @@ INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
-		MERGED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
-		MERGED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\dkvc4\Downloads\stting\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
 ADDED from [com.microsoft.projectoxford:speechrecognition:1.2.2] C:\Users\dkvc4\.gradle\caches\transforms-3\60a6da59e80af02681699746151be55f\transformed\speechrecognition-1.2.2\AndroidManifest.xml:13:5-86

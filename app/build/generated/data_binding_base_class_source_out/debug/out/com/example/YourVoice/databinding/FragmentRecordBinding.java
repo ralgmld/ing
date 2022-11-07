@@ -21,16 +21,20 @@ public final class FragmentRecordBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnStt;
+  public final Button endCallBtn;
 
   @NonNull
-  public final TextView sttResult;
+  public final TextView speechToText;
 
-  private FragmentRecordBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnStt,
-      @NonNull TextView sttResult) {
+  @NonNull
+  public final TextView timer;
+
+  private FragmentRecordBinding(@NonNull ConstraintLayout rootView, @NonNull Button endCallBtn,
+      @NonNull TextView speechToText, @NonNull TextView timer) {
     this.rootView = rootView;
-    this.btnStt = btnStt;
-    this.sttResult = sttResult;
+    this.endCallBtn = endCallBtn;
+    this.speechToText = speechToText;
+    this.timer = timer;
   }
 
   @Override
@@ -60,19 +64,26 @@ public final class FragmentRecordBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_stt;
-      Button btnStt = ViewBindings.findChildViewById(rootView, id);
-      if (btnStt == null) {
+      id = R.id.endCallBtn;
+      Button endCallBtn = ViewBindings.findChildViewById(rootView, id);
+      if (endCallBtn == null) {
         break missingId;
       }
 
-      id = R.id.sttResult;
-      TextView sttResult = ViewBindings.findChildViewById(rootView, id);
-      if (sttResult == null) {
+      id = R.id.speechToText;
+      TextView speechToText = ViewBindings.findChildViewById(rootView, id);
+      if (speechToText == null) {
         break missingId;
       }
 
-      return new FragmentRecordBinding((ConstraintLayout) rootView, btnStt, sttResult);
+      id = R.id.timer;
+      TextView timer = ViewBindings.findChildViewById(rootView, id);
+      if (timer == null) {
+        break missingId;
+      }
+
+      return new FragmentRecordBinding((ConstraintLayout) rootView, endCallBtn, speechToText,
+          timer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

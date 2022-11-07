@@ -2907,6 +2907,7 @@ id eightbtn
 id elastic
 id embed
 id end
+id endCallBtn
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
@@ -3153,6 +3154,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id speechToText
 id spline
 id split_action_bar
 id spread
@@ -3210,6 +3212,7 @@ id textinput_prefix_text
 id textinput_suffix_text
 id thirdbtn
 id time
+id timer
 id title
 id titleDividerNoCustom
 id title_template

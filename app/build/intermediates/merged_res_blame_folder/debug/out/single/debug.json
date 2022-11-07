@@ -24,12 +24,12 @@
         "source": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-main-46:\\drawable\\ic_call.png"
     },
     {
-        "merged": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-merged_res-44:\\mipmap-hdpi_ic_logo.png.flat",
-        "source": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-main-46:\\mipmap-hdpi\\ic_logo.png"
-    },
-    {
         "merged": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-merged_res-44:\\drawable_buttonshape.xml.flat",
         "source": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-main-46:\\drawable\\buttonshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-merged_res-44:\\mipmap-hdpi_ic_logo.png.flat",
+        "source": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-main-46:\\mipmap-hdpi\\ic_logo.png"
     },
     {
         "merged": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-merged_res-44:\\mipmap-anydpi-v26_ic_logo.xml.flat",
@@ -180,6 +180,10 @@
         "source": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-main-46:\\drawable-v24\\back.png"
     },
     {
+        "merged": "com.example.YourVoice.app-merged_res-44:/layout_fragment_record.xml.flat",
+        "source": "com.example.YourVoice.app-main-46:/layout/fragment_record.xml"
+    },
+    {
         "merged": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-merged_res-44:\\layout_fragment_calllog.xml.flat",
         "source": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-main-46:\\layout\\fragment_calllog.xml"
     },
@@ -242,10 +246,6 @@
     {
         "merged": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-merged_res-44:\\mipmap-mdpi_ic_logo.png.flat",
         "source": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-main-46:\\mipmap-mdpi\\ic_logo.png"
-    },
-    {
-        "merged": "com.example.YourVoice.app-merged_res-44:/layout_call.xml.flat",
-        "source": "com.example.YourVoice.app-main-46:/layout/call.xml"
     },
     {
         "merged": "C:\\Users\\dkvc4\\.gradle\\daemon\\7.3.3\\com.example.YourVoice.app-merged_res-44:\\mipmap-hdpi_ic_logo_round.png.flat",

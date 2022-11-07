@@ -102,8 +102,6 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common:2.5.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.slidingpanelayout:slidingpanelayout:1.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-ui:2.5.2@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.tensorflow:tensorflow-lite:2.10.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.tensorflow:tensorflow-lite-api:2.10.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.microsoft.projectoxford:speechrecognition:1.2.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.microsoft.cognitiveservices.speech:client-sdk:1.23.0@aar" level="project" />
   </component>

@@ -53,6 +53,7 @@ id callEditText
 id callbtn
 id container
 id eightbtn
+id endCallBtn
 id fivebtn
 id fourbtn
 id join_age
@@ -80,11 +81,13 @@ id onebtn
 id relativeLayout
 id sevenbtn
 id sixbtn
+id speechToText
 id sttResult
 id textView_main_result
 id text_list
 id text_myPage
 id thirdbtn
+id timer
 id toolbar
 id tv_call_number
 id twobtn
